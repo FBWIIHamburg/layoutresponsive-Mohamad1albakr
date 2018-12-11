@@ -108,7 +108,7 @@ button{
     border-radius: 10px;
 }
 img{width: 100%;}
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1000px){
     .col-3{
         width: 50%;
     }
@@ -118,14 +118,17 @@ img{width: 100%;}
         }
         .top{
             flex-direction: column;
+            align-items: center;
            
         }
         .nav>ul{
             display: block;
             flex-direction: column;   
+            align-items: center;
         }
         .nav>ul>li>a{
             border: 1px solid white;
+            align-items: center;
         }
     }
 @media only screen and (max-width:600px){
@@ -133,17 +136,21 @@ img{width: 100%;}
         padding:  0;
        
     }
+   
     .top{
         flex-direction: column;
+        align-items: center;
        
     }
     .nav>ul{
         display: block;
-        flex-direction: column;   
+        flex-direction: column;  
+        align-items: center; 
     }
     .nav>ul>li>a{
         border: 1px solid white;
     }
+    
 .col-3{
  width: 100%;
    
